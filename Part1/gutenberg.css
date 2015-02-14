@@ -1,0 +1,79 @@
+
+
+.area { 
+	color: #663366;
+	text-shadow: 1px 1px 0px #330000;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	font-size: xx-large;
+	font-style: normal;
+	text-decoration: blink;
+   text-align: center; 
+}
+
+
+body {
+		margin-top: 100px;
+		margin-right: 200px;
+		margin-bottom: 10px;
+		margin-left: 200px;
+		background-image: url("background.jpg");
+}
+	
+/*add color to p*/
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #282828;
+    margin-left: 50px;
+    margin-right: 75px;
+    font-size: 20px;
+}
+      
+ /*add shadow to h1 h2 h3,h4,h5,h5*/
+h1, h2, h3, h4, h5, h6 {
+      	 font-size: 30px;
+          text-shadow: 15px 15px 15px #505050;
+          letter-spacing: 2px;
+}      
+
+img {
+          opacity: 0.4;
+          filter:alpha(opacity=40);
+}
+/*add hover effect to img*/
+img:hover {
+          opacity: 1;
+          filter:alpha(opacity=100);
+}                
+
+figure {
+           margin: 1.5em;  
+           float: right;
+           width: 304px;
+           height: auto;
+           border: 1px solid #cccfff;
+           background-color: #fafafa;
+           text-align: center;
+}                    
+
+figcaption {
+           word-wrap: break-word;
+           font-size: 10%;
+} 
+                                 
+pre {
+           text-align: center;
+           border-style:solid;
+           border-color:#2f2f2f;
+}                                      
+
+.toc {
+           margin-top: 0px;
+           margin-bottom: 0px;
+           text-decoration:none
+}
+
+a:hover {
+           outline-style: outset;
+           outline-color: #000000;
+}                                                                                    

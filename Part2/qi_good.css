@@ -1,0 +1,98 @@
+html {
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.sidebar {
+    background-image: url("border.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 200px;
+    height: 700px;
+    float: left;
+    font-size: 20px;
+}
+
+h3.point,li.p1,li.p2,li.p3{
+    position: relative;
+    top: 80px;
+}
+
+h2.historyTitle,h4.pcl,li.pcl1,li.pcl2,li.pcl3{
+    position: relative;
+    left: 100px;
+    width:80%;
+}
+
+.right {
+    background-image: url("border.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    right: 400px;
+    width: 700px;
+    height: 700px;
+    background-color: #b0e0e6;
+}
+
+
+.context{
+    background-image: url("border.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    float: left;
+    width: 890px;
+    padding: 2%;
+    font-size: 20px;
+    background-color: #ffffff;
+    position: relative;
+    top: 20px;
+    bottom: 50px;
+}
+
+h2.myself {
+    position: relative;
+    float: left;
+    left: 50px;
+    top: 50px;
+    width:90%;
+    font-size: 20px;
+}
+
+h2.name{
+    position: absolute;
+    width: 50%;
+    float: left;
+    top: 60px;
+    left: 150px;	
+    font-size: 50px;
+}
+
+.skydive {
+    position: relative;
+    top: 210px;
+}
+
+.thumbnail {
+    position: relative;
+    right: 50px;
+    top: 70px;
+    float: right;
+    color: red;
+}
+
+
+
